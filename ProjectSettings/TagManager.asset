@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - ViewObject
+  - WeaponBox
+  - Enemy
+  - HUD
+  - TheWorld
+  - BotPatrolNode
+  - hitbox-body
+  - hitbox-head
+  - playermodel
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - PostProcessing
+  - Arena
+  - HumanLayer
+  - EnemyLayer
+  - HumanViewmodel
+  - EnemyLayer1
+  - EnemyLayer2
+  - EnemyLayer3
+  - EnemyLayer4
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

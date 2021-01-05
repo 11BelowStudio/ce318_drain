@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 45cb9b6b3ffd0eb46833360e7310aa9c
+  - enabled: 1
+    path: Assets/Scenes/SampleLevel.unity
+    guid: 2e402b200c04a634a98e753f1762bc99
+  - enabled: 1
+    path: Assets/Scenes/TheSceneWithTheTerrain.unity
+    guid: f3c4a705fcf543e48bc99b45a4e82cc7
+  - enabled: 1
+    path: Assets/Drained - Or How I Learned To Stop Sleeping And Embrace The Grind/Drained.unity
+    guid: cc1d620db099c2e49b0123d10958a6e1
+  m_configObjects: {}
