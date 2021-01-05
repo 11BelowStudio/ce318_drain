@@ -1,0 +1,11 @@
+Standard Assets (for Unity 2018.4) by Unity Technologies (https://assetstore.unity.com/packages/essentials/asset-packs/standard-assets-for-unity-2018-4-32351)
+Speedball Player by Character Ink. (https://assetstore.unity.com/packages/3d/characters/humanoids/sci-fi/speedball-player-12980)
+Sci Fi Futuristic Handgun by Mobility Arts (https://assetstore.unity.com/packages/3d/props/guns/sci-fi-futuristic-hand-gun-90249)
+Shotgun Sci-Fi Weapon by MLX (https://assetstore.unity.com/packages/3d/props/guns/shotgun-sci-fi-weapon-100194)
+Sci-Fi Gun Heavy by Factory Of Models (https://assetstore.unity.com/packages/3d/props/guns/sci-fi-gun-heavy-87878)
+UMotion Community - Animation Editor by Soxware Interactive (https://assetstore.unity.com/packages/tools/animation/umotion-community-animation-editor-95986)
+Basic Motions FREE Pack by Kevin Iglesias (https://assetstore.unity.com/packages/3d/animations/basic-motions-free-pack-154271)
+Cabin Fonts by Pablo Impallari, Igino Marini, Kalapi Gajjar-Bordawekar, Marc Foley, and Lasse Fister (https://github.com/impallari/Cabin)
+Raleway Fonts by Matt McInerney, Pablo Imallari, Rodrigo Fuenzalida, Alexei Vanyashin, Ivan Petrov, Cyreal (https://github.com/impallari/Raleway)
+Main menu theme by David Lowe (my brother. No link because he hasn’t uploaded it anywhere. But he did give me permission to use it)
+Some assets/scripts were adapted from assets/scripts provided in the CE318 course materials
