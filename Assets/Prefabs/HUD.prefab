@@ -1835,6 +1835,7 @@ GameObject:
   - component: {fileID: 5270643532326342167}
   - component: {fileID: 5270643532326342165}
   - component: {fileID: 5270643532326342164}
+  - component: {fileID: 3140679109523943087}
   m_Layer: 5
   m_Name: ReallyBadCrosshair
   m_TagString: HUD
@@ -1894,6 +1895,27 @@ MonoBehaviour:
     y: 0
     width: 1
     height: 1
+--- !u!223 &3140679109523943087
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5270643532326342166}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 2
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 1
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 1
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
 --- !u!1 &5270643532398575898
 GameObject:
   m_ObjectHideFlags: 0
@@ -2100,7 +2122,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.02, y: 0.15}
   m_AnchorMax: {x: 0.49, y: 0.25}
-  m_AnchoredPosition: {x: -153, y: -46.5}
+  m_AnchoredPosition: {x: -153, y: -140}
   m_SizeDelta: {x: -902, y: -93}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2361653569655678297
@@ -3249,7 +3271,7 @@ MonoBehaviour:
   m_material: {fileID: 0}
   m_sharedMaterial: {fileID: 0}
   m_isDefaultMaterial: 0
-  m_padding: 4.85
+  m_padding: 0
   m_canvasRenderer: {fileID: 5065237129728436250}
   m_TextComponent: {fileID: 613457523293994865}
   m_materialReferenceIndex: 1

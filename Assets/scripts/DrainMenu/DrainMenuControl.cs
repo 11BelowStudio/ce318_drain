@@ -120,7 +120,10 @@ namespace Assets.scripts.DrainMenu
 
         public void GiveUp()
         {
+#if UNITY_WEBGL
+#else
             Application.Quit(1);
+#endif
         }
 
         public void Settings()
