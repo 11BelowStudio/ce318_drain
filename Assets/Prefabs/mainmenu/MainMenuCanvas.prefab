@@ -254,7 +254,7 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 1, g: 1, b: 1, a: 1}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -909,8 +909,7 @@ GameObject:
   - component: {fileID: 1969298528943980064}
   - component: {fileID: 1969298528943980067}
   m_Layer: 5
-  m_Name: TMP SubMeshUI [Raleway-v4013-Regular Atlas Material + Raleway-v4013-Bold
-    SDF Atlas]
+  m_Name: TMP SubMeshUI [Cabin-Regular SDF Material + Cabin-Bold SDF Atlas]
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -961,12 +960,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_fontAsset: {fileID: 11400000, guid: 97a5099548dd8cd409c9bc3288387bef, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: eecc359e8c3ca8d47acb61cd3ecb30da, type: 2}
   m_spriteAsset: {fileID: 0}
   m_material: {fileID: 0}
   m_sharedMaterial: {fileID: 0}
   m_isDefaultMaterial: 0
-  m_padding: 3.05
+  m_padding: 2.15
   m_canvasRenderer: {fileID: 1969298528943980064}
   m_TextComponent: {fileID: 1969298530267141918}
   m_materialReferenceIndex: 1
@@ -1067,7 +1066,7 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 1, g: 1, b: 1, a: 1}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -1303,8 +1302,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: BACK
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6a3ee57f176c779408f3daeaf353d41e, type: 2}
-  m_sharedMaterial: {fileID: 21058130069435082, guid: 6a3ee57f176c779408f3daeaf353d41e,
+  m_fontAsset: {fileID: 11400000, guid: ea7d6193ba02fbf46bc424944d15b45b, type: 2}
+  m_sharedMaterial: {fileID: 21596688788731496, guid: ea7d6193ba02fbf46bc424944d15b45b,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -1336,7 +1335,7 @@ MonoBehaviour:
   m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 1
+  m_fontStyle: 0
   m_textAlignment: 514
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -1564,7 +1563,7 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 1, g: 1, b: 1, a: 1}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -2033,10 +2032,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: the gutter
+  m_text: THE GUTTER
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 2b2102daf23974944a20e48ade65ddbe, type: 2}
-  m_sharedMaterial: {fileID: 21593688288947270, guid: 2b2102daf23974944a20e48ade65ddbe,
+  m_fontAsset: {fileID: 11400000, guid: ea7d6193ba02fbf46bc424944d15b45b, type: 2}
+  m_sharedMaterial: {fileID: 21596688788731496, guid: ea7d6193ba02fbf46bc424944d15b45b,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -2068,7 +2067,7 @@ MonoBehaviour:
   m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 1
+  m_fontStyle: 0
   m_textAlignment: 514
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -2110,7 +2109,7 @@ MonoBehaviour:
     linkCount: 0
     lineCount: 1
     pageCount: 1
-    materialCount: 2
+    materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -2364,7 +2363,7 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 1, g: 1, b: 1, a: 1}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -2817,7 +2816,7 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 1, g: 1, b: 1, a: 1}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -2942,7 +2941,7 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 1, g: 1, b: 1, a: 1}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -3104,7 +3103,7 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 1, g: 1, b: 1, a: 1}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -3313,8 +3312,7 @@ MonoBehaviour:
   m_text: Difficulty
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ea7d6193ba02fbf46bc424944d15b45b, type: 2}
-  m_sharedMaterial: {fileID: 21596688788731496, guid: ea7d6193ba02fbf46bc424944d15b45b,
-    type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 9c2e0c1743ce04f4eb7fb1684960a6b9, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3487,8 +3485,7 @@ GameObject:
   - component: {fileID: 1969298530205147117}
   - component: {fileID: 1969298530205147116}
   m_Layer: 5
-  m_Name: TMP SubMeshUI [Raleway-v4013-Regular Atlas Material + Raleway-v4013-Bold
-    SDF Atlas]
+  m_Name: TMP SubMeshUI [Cabin-Regular SDF - Outline + Cabin-Bold SDF Atlas]
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3539,12 +3536,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_fontAsset: {fileID: 11400000, guid: 97a5099548dd8cd409c9bc3288387bef, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: eecc359e8c3ca8d47acb61cd3ecb30da, type: 2}
   m_spriteAsset: {fileID: 0}
   m_material: {fileID: 0}
   m_sharedMaterial: {fileID: 0}
   m_isDefaultMaterial: 0
-  m_padding: 3.05
+  m_padding: 3.9499998
   m_canvasRenderer: {fileID: 1969298530205147117}
   m_TextComponent: {fileID: 1969298529532251093}
   m_materialReferenceIndex: 1
@@ -3648,10 +3645,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: the ditch
+  m_text: THE DITCH
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 2b2102daf23974944a20e48ade65ddbe, type: 2}
-  m_sharedMaterial: {fileID: 21593688288947270, guid: 2b2102daf23974944a20e48ade65ddbe,
+  m_fontAsset: {fileID: 11400000, guid: ea7d6193ba02fbf46bc424944d15b45b, type: 2}
+  m_sharedMaterial: {fileID: 21596688788731496, guid: ea7d6193ba02fbf46bc424944d15b45b,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -3683,7 +3680,7 @@ MonoBehaviour:
   m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 1
+  m_fontStyle: 0
   m_textAlignment: 514
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -3725,7 +3722,7 @@ MonoBehaviour:
     linkCount: 0
     lineCount: 1
     pageCount: 1
-    materialCount: 2
+    materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -4067,7 +4064,7 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 1, g: 1, b: 1, a: 1}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -4461,7 +4458,7 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 1, g: 1, b: 1, a: 1}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -4897,8 +4894,7 @@ MonoBehaviour:
   m_text: Audio Volume
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ea7d6193ba02fbf46bc424944d15b45b, type: 2}
-  m_sharedMaterial: {fileID: 21596688788731496, guid: ea7d6193ba02fbf46bc424944d15b45b,
-    type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 9c2e0c1743ce04f4eb7fb1684960a6b9, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

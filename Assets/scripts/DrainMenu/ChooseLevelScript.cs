@@ -49,19 +49,26 @@ namespace Assets.scripts.DrainMenu
             back.gameObject.SetActive(false);
 
         }
+		
+		private void DisableMenu(){
+			chooseGroup.interactable = false;
+		}
 
         public void TheGutter()
         {
+			DisableMenu();
             FindObjectOfType<FaderScript>().ChangeLevel(GUTTER_BUILD_INDEX);
         }
 
         public void TheDitch()
         {
+			DisableMenu();
             FindObjectOfType<FaderScript>().ChangeLevel(DITCH_BUILD_INDEX);
         }
 
         public void Drained()
         {
+			DisableMenu();
             FindObjectOfType<FaderScript>().ChangeLevel(DRAINED_BUILD_INDEX, FaderScript.FadeType.WHITE);
         }
 

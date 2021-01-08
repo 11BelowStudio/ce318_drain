@@ -376,6 +376,7 @@ MonoBehaviour:
   m_JumpSound: {fileID: 8300000, guid: 5897aeed9b676024fbb8c694b421a861, type: 3}
   m_LandSound: {fileID: 8300000, guid: 3b09d59f4499d45428baa7a21e954296, type: 3}
   hurtClip: {fileID: 8300000, guid: 18b77eb47e111b94192d800b220e4a8b, type: 3}
+  dedClip: {fileID: 8300000, guid: 111aa29b681f16b46a34ac5742740159, type: 3}
   playerView: {fileID: 4327002956897416352}
   hud: {fileID: 4327002956744990729}
   lookVector: {x: 0, y: 0, z: 0}
@@ -529,17 +530,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5597061356948439757, guid: 76de05a525874f947aa3f6c267c6ea34,
-        type: 3}
-      propertyPath: m_Layer
-      value: 13
-      objectReference: {fileID: 0}
     - target: {fileID: 4174408207271046067, guid: 76de05a525874f947aa3f6c267c6ea34,
         type: 3}
       propertyPath: m_Layer
       value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 3832829911064893157, guid: 76de05a525874f947aa3f6c267c6ea34,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 5597061356948439757, guid: 76de05a525874f947aa3f6c267c6ea34,
         type: 3}
       propertyPath: m_Layer
       value: 13

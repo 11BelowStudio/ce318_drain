@@ -51,8 +51,10 @@ namespace Assets.scripts.DrainMenu
             currentState = DrainMenuStates.main;
             ShowThis();
             choose.chooseGroup.alpha = 0f;
+			choose.chooseGroup.interactable = false;
             choose.gameObject.SetActive(false);
             settings.settingsGroup.alpha = 0f;
+			settings.settingsGroup.interactable = false;
             settings.gameObject.SetActive(false);
 
         }
@@ -71,9 +73,11 @@ namespace Assets.scripts.DrainMenu
                     {
                         case DrainMenuStates.chooseLevel:
                             choose.chooseGroup.alpha = (alpha);
+							choose.chooseGroup.interactable = (alpha == 1f);
                             break;
                         case DrainMenuStates.settings:
                             settings.settingsGroup.alpha = (alpha);
+							settings.settingsGroup.interactable = (alpha == 1f);
                             break;
                     }
                     if (alpha == 1f)
@@ -95,6 +99,7 @@ namespace Assets.scripts.DrainMenu
                         choose.enabled = false;
                         choose.gameObject.SetActive(false);
                         fadeState = FadeStates.none;
+						mainCanvas.interactable = true;
                     }
                     break;
                 case FadeStates.fadeToMainFromSettings:
@@ -107,6 +112,7 @@ namespace Assets.scripts.DrainMenu
                         settings.enabled = false;
                         settings.gameObject.SetActive(false);
                         fadeState = FadeStates.none;
+						mainCanvas.interactable = true;
                     }
                     break;
             }
@@ -151,6 +157,7 @@ namespace Assets.scripts.DrainMenu
             //settingsButton.gameObject.SetActive(false);
             //quitButton.gameObject.SetActive(false);
             fadeState = FadeStates.fadeToOther;
+			mainCanvas.interactable = false;
         }
 
         public void BackToMain()

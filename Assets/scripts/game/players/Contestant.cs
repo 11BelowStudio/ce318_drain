@@ -45,6 +45,8 @@ namespace Assets.scripts.game.players {
         [SerializeField] protected AudioClip m_LandSound;           // the sound played when character touches back on ground.
 
         [SerializeField] protected AudioClip hurtClip;
+		
+		[SerializeField] protected AudioClip dedClip;
 
 
 
@@ -117,9 +119,6 @@ namespace Assets.scripts.game.players {
             
         }
 
-        //TODO: STILL NEED TO FINISH OFF CONTESTANT!
-
-        //TODO: ALSO NEED TO REFACTOR GAMECONTROL TO ACCOMMODATE CONTESTANT
 
 
         // Update is called once per frame
@@ -416,6 +415,10 @@ namespace Assets.scripts.game.players {
 
         public virtual void GameOver(bool won = false)
         {
+			if(!won)
+			{
+				PlayNoise(dedClip);
+			}
             hud.GameOver(won);
             WillYouStopTheDrainsPlease();
             SetCanMove(false);
