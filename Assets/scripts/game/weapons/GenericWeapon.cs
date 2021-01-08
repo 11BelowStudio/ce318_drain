@@ -208,7 +208,7 @@ namespace Assets.scripts.game.weapons
                                 }
                                 Debug.Log($"{(other.Equals(shooter) ? "shot urself" : "seems cool")  }");
                                 other.WeaponChangeHealth(-damageDealt);
-                                shooterHealthChange += (damageDealt * regen);
+                                shooterHealthChange += (damageDealt * 2 * regen);
                                 break;
                             }
                     }
@@ -238,7 +238,7 @@ namespace Assets.scripts.game.weapons
                     float damageDealt = dropOffCurve.Evaluate(range/dist);
                     Debug.Log($"dealt {damageDealt} damage");
                     cont.WeaponChangeHealth(-damageDealt);
-                    shooterHealthChange += (damageDealt * regen);
+                    shooterHealthChange += (damageDealt * 2 * regen);
                 }
                 /*
                 layers -= LayerMask.NameToLayer("Arena");

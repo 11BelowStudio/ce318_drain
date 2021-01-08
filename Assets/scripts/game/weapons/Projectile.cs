@@ -164,7 +164,7 @@ namespace Assets.scripts.game.weapons
                     //if false, it has line of sight.
                     dist = Vector3.Distance(thisPos, closest);
                     float dmg = (dist / splashRadius) * maxSplash;
-                    shooterHealthChange += (dmg + (dmg * regen));
+                    shooterHealthChange += (dmg * 2 * regen);
                     c.WeaponChangeHealth(-dmg);
                 }
                 //allHit.Remove(c);

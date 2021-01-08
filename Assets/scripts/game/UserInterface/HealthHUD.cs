@@ -88,8 +88,12 @@ namespace Assets.scripts.game.UserInterface
                 }
                 overhealBar.value = health;
             }
-            else if (health > 0)
+            else
             {
+				if (health < 0f){
+					healthTMP.SetText("0");
+					health = 0f;
+				}
                 healthbar.value = health;
                 if (overhealed)
                 {
@@ -99,22 +103,24 @@ namespace Assets.scripts.game.UserInterface
                 }
                 
             }
-            else
-            {
-                healthTMP.SetText("0");
-                healthbar.fillRect.gameObject.SetActive(false);
-                if (overhealed)
-                {
-                    overhealBar.gameObject.SetActive(false);
-                    overhealed = false;
-                    //hurtIndicator.enabled = true;
-                }
-            }
             //hurtColour.a = Mathf.Clamp01(1 - (health / 60));
             //hurtIndicator.color = hurtColour;
             hurtUnderlay.alpha = Mathf.Clamp01(1 - (health / 60));
 
         }
+		
+		public void UrDed()
+		{
+			healthTMP.SetText("0");
+			healthbar.fillRect.gameObject.SetActive(false);
+			if (overhealed)
+			{
+				overhealBar.gameObject.SetActive(false);
+				overhealed = false;
+				//hurtIndicator.enabled = true;
+			}
+			hurtUnderlay.alpha = 1f;
+		}
 
         // Update is called once per frame
         void Update()

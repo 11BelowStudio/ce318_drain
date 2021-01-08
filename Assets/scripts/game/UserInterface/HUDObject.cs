@@ -68,7 +68,8 @@ namespace Assets.scripts.game.UserInterface
             youAreDead = true;
             if (!won)
             {
-                healthHUD.SetHealth(0f);
+				healthHUD.UrDed();
+                //healthHUD.SetHealth(0f);
             }
             crosshair.enabled = false;
             //healthHUD.enabled = false;
